@@ -19,7 +19,7 @@ plot(datetime, subdata$Voltage, xlab = "datetime", ylab = "Voltage",type = "l")
 plot(datetime, subdata$Sub_metering_1, type ="l", xlab = "", ylab = "Energy sub metering")
 lines(datetime,subdata$Sub_metering_2, col = "red" ,type ="l")
 lines(datetime,subdata$Sub_metering_3, col = "blue" ,type ="l")
-legend("topright", lty=1,col = c("black","red","blue"),legend = c("Sub_metering_1","Sub_metering_2","Sub_metering_3", cex=0.6))
+legend("topright", lty=1,col = c("black","red","blue"),legend = c("Sub_metering_1","Sub_metering_2","Sub_metering_3"))
 
 plot(datetime, subdata$Global_reactive_power,xlab = "datetime",ylab = "Global_reactive_power", type = "l")
 
